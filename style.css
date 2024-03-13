@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Martian+Mono:wght@100..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #E5D3CE;
+}
+figure{
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+}
+img{
+    width: 100%;
+}
+h1{
+    display: inline;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 40px;
+    color: #E73600;
+}
+h2{
+    
+    font-family: "Indie Flower", cursive;
+    color: #E73600;
+}
+.eu:hover{
+    border: 2px black solid;
+}
