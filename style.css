@@ -1,31 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Martian+Mono:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-align: center;
-    background-color: #E5D3CE;
+   /* text-align: center; */
+}
+main{
+    display: flex;
+    padding: 20px;
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 80vh; /* Garante que o conteúdo ocupe pelo menos80% da tela */
+    max-height: 80vh;
+}
+body{
+    background-color: rgb(165, 165, 165);
 }
 figure{
-    display: inline-block;
     margin: 0 auto;
-    width: 300px;
+    width: 400px;
 }
 img{
     width: 100%;
 }
-h1{
-    display: inline;
-    font-family: "Gloria Hallelujah", cursive;
-    font-size: 40px;
-    color: #E73600;
-}
 h2{
-    
     font-family: "Indie Flower", cursive;
-    color: #E73600;
+    font-size: 40px;
+    color: #000000;
 }
-.eu:hover{
-    border: 2px black solid;
+div{
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 10px;
+    margin: 10px;
+}
+ol{
+    padding: 0px 30px;
+}
+li{
+    padding: 5px;
+    cursor: pointer;
+    font-family: "Madimi One", sans-serif;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+header, footer {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(95, 95, 95);
+    /*para deixar do tamanho da tela*/
+    min-height: 10vh; 
+    max-height: 10vh;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;
+}
+input{
+    width: 100px;    
+    height: 30px;
+    font-weight: bold;
+    font-family: "Madimi One", sans-serif;
+    border: none;
+}
+
+#eu{
+    border-radius: 10%;
+    border: 3px black solid;
 }
