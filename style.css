@@ -90,3 +90,10 @@ input{
     border-radius: 10%;
     border: 3px black solid;
 }
+.letra_musica {
+    width: auto; /* largura do elemento */
+    height: 400px; /* altura do elemento */
+    overflow: auto; /* exibe a barra de rolagem quando necessário */
+    padding: 10px; /* espaçamento interno */
+    border: 1px solid black;
+}
